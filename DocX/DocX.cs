@@ -2175,6 +2175,18 @@ namespace Novacode
             return wordStyles;
         }
 
+        public void AddStyle(string style)
+        {
+
+            var reader = XmlReader.Create(new StringReader(style));
+            var xmlstyle = XElement.Load(reader);
+
+            if (!styles.Descendants().Any(x => x.Name.Equals(DocX.w + "style") && (x.Attribute(DocX.w + "type") == null || x.Attribute(DocX.w + "type").Value.Equals(xmlstyle.Attribute(DocX.w + "type").Value)) && x.Attribute(DocX.w + "styleId") != null && x.Attribute(DocX.w + "styleId").Value.Equals(xmlstyle.Attribute(DocX.w + "styleId").Value)))
+            {
+                styles.Root.Add(xmlstyle);
+            }
+
+        }
         /// <summary>
         /// Insert a Table into this document. The Table's source can be a completely different document.
         /// </summary>

@@ -22,6 +22,8 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Documentat
 		{E863D072-AA8B-4108-B5F1-785241B37F67} = {E863D072-AA8B-4108-B5F1-785241B37F67}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testrun", "D:\MOTR\Projecten\VS15\2015.RapportageModule\test\testrun\testrun.csproj", "{B7952925-3FA5-4E80-893B-233D32040791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{1EB1EE8F-9978-425B-A742-533DCCEB4811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EB1EE8F-9978-425B-A742-533DCCEB4811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB1EE8F-9978-425B-A742-533DCCEB4811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7952925-3FA5-4E80-893B-233D32040791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7952925-3FA5-4E80-893B-233D32040791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7952925-3FA5-4E80-893B-233D32040791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7952925-3FA5-4E80-893B-233D32040791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
